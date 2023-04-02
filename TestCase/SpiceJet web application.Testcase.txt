@@ -1,0 +1,37 @@
+ Few test cases for the SpiceJet web application:
+
+1)Test case for booking a flight:
+Open the SpiceJet website.
+
+1.Click on the "Flights" tab on the homepage.
+2.Select the departure city, arrival city, date of travel, number of passengers, and click on the "Search Flights" button.
+3.Choose a suitable flight and fare type.
+4.Enter the passenger details and click on the "Continue" button.
+5.Review the booking summary and click on the "Continue" button.
+6.Enter the payment details and click on the "Pay Now" button.
+7.Verify that the booking is confirmed and the itinerary details are correct.
+
+2).Test case for checking baggage allowance:
+1.Open the SpiceJet website.
+2.Click on the "Baggage" tab on the homepage.
+3.Select the departure city, arrival city, and click on the "Go" button.
+4.Verify that the baggage allowance for the selected route and fare type is displayed correctly.
+
+3)Test case for modifying a booking:
+1.Open the SpiceJet website.
+2.Click on the "Manage Booking" tab on the homepage.
+3.Enter the booking reference number and the passenger's last name.
+4.Click on the "Retrieve Booking" button.
+5.Select the booking to modify.
+6.Make the necessary changes to the booking and click on the "Update" button.
+7.Verify that the booking has been modified and the changes are reflected in the itinerary.
+
+4)Test case for cancelling a booking:
+ Open the SpiceJet website.
+1.Click on the "Manage Booking" tab on the homepage.
+2.Enter the booking reference number and the passenger's last name.
+3.Click on the "Retrieve Booking" button.
+4.Select the booking to cancel.
+5.Click on the "Cancel" button.
+6.Follow the instructions to complete the cancellation process.
+7.Verify that the booking has been cancelled and the refund amount (if applicable) is correct.
