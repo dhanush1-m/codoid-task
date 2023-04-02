@@ -1,0 +1,32 @@
+                     Title: Submit Button not working on Login Page.
+
+1)Defect ID:
+2)Project name:xxx
+3)Build id:xxx
+4)Release name:xxx
+5)Reported name:xxx
+6)Asignto:xxxx
+7)priority:p1
+8)Severity:This bug is a high severity.
+9)Defect summary:Submit Button not working on Login Page.
+
+10)Steps to Reproduce:
+  1.Open the website and navigate to the login page.
+  2.Enter the correct username and password in the respective fields.
+  3.Attempt to click the Submit button to login to the website.
+  4.Observe that nothing happens, and the user is not logged in.
+
+11)Environment:
+
+  1.Operating System: Windows 10
+  2.Browser: 
+  3.Website Version: 
+
+12)Expected Result:
+After entering the correct username and password, the user should be able to click the Submit button to successfully log in to the website.
+
+13)Actual Result:
+The Submit button does not function, and the user is unable to log in to the website.
+
+
+14)Screenshot:Attached

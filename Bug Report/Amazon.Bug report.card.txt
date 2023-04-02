@@ -1,0 +1,35 @@
+  Amazon:
+Defect ID:
+1)ProjectName:Amazon
+2)Release name:yyy
+3)Build id:b09
+4)Reprted by:HR
+5)Assign to:dhanush
+6)Severity: High
+7)priority:
+8)Defect summary:The electronic item should be added to the cart.
+
+9)Environnment deteals:
+1.os:
+2.os version:
+3.browername:
+4.brower version:
+
+10)Steps to Reproduce:
+
+1.Go to Amazon website and login to your account.
+2.Navigate to the Electronics category.
+3.Select any electronic item and click on the "Add to Cart" button.
+4.Observe that the item is not added to the cart.
+
+11)Expected Result: The electronic item should be added to the cart.
+
+12)Actual Result: The electronic item is not added to the cart and the user is unable to proceed with the purchase.
+
+13)Additional Information:
+
+1.This issue is reproducible on different browsers and devices.
+2.Other categories of products can be added to the cart without any issues.
+3.The issue is limited to electronic items only.
+
+14)Screenshot: Attached

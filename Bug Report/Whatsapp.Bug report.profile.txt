@@ -1,0 +1,37 @@
+Title: Profile picture not updated in WhatsApp.
+
+Defect ID:
+1).project name:Whatsapp.
+2)Release name:yyy
+3)Build Id:xxx
+4)priority:p2:
+5)Severity: medium
+6)Reported by:
+7)Assign to:
+8)Defect summary:Profile picture not updated in WhatsApp.
+9)Environment Detials:
+  1.os name:
+  2.os version:
+  3.browser name:
+  4.broswer version:
+
+10)Steps to Reproduce:
+
+ 1.Open WhatsApp application on your device.
+ 2.Go to "Settings" and click on "Profile".
+ 3.Click on the "Edit" button next to your profile picture.
+ 4.Choose a new profile picture from your gallery and click on "Done".
+ 5.Observe that the new profile picture is not updated in your WhatsApp account.
+
+11)Expected Result: The new profile picture should be updated in your WhatsApp account.
+
+12)Actual Result: The new profile picture is not updated and the old profile picture is still displayed in your WhatsApp account.
+
+13)Additional Information:
+
+ 1.This issue is reproducible on different devices.
+ 2.The internet connection is stable and working.
+ 3.The issue is not related to the size or format of the new profile picture.
+
+14)Screenshot: Attached
+
