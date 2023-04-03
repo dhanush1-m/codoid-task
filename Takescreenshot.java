@@ -27,10 +27,11 @@ public class Takescreenshot {
 	        driver.get("https://www.codoid.com");
 
 	        // Take a screenshot of the entire webpage
-	        File screenshot= ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+	        Takescreenshot ts=(Takescreenshot)driver:
+		File dst=ts.getscreenshotAs(outputtype.file):    
 
-	       File dst= new File("./screenshot/image.png");
-           File utils.copy(screenshot,dst);
+	        File dst= new File("./screenshot/image.png");
+                File utils.copy(screenshot,dst);
 	        // Close the browser
 	        driver.quit();
 	    }
