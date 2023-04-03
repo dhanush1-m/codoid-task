@@ -41,6 +41,7 @@ Steps:
   2.Add a product to the cart.
   3.Click on the cart icon to view the cart page.
   4.Verify that the cart page displays the added product, quantity, price, and checkout options.
+  
   Expected result: 
   The cart page should display correctly with all the necessary elements visible.
 
@@ -51,6 +52,7 @@ Steps:
 Navigate to the Amazon website.
   1.Click on the sign-in button.
   2.Verify that the sign-in page is displayed with the email and password fields, and sign-in options.
+  
   Expected result: 
   the sign-in page should display correctly with all the necessary elements visible.
 
@@ -61,6 +63,7 @@ Navigate to the Amazon website.
    1.Navigate to the Amazon website.
    2.Click on the "Hello, Sign in" button and select "Start here" to create a new account.
    3.Verify that the sign-up page is displayed with the appropriate fields and sign-up options.
+   
    Expected result: 
    The sign-up page should display correctly with all the necessary elements visible.
 
@@ -72,6 +75,7 @@ Steps:
 2.Sign in to the account.
 3.Click on the "Account & Lists" button.
 4.Verify that the account page is displayed with the appropriate options such as orders, payments, addresses, etc.
+
 Expected result: 
 The account page should display correctly with all the necessary elements visible.
 
@@ -81,5 +85,6 @@ Steps:
 1.Open Amazon website in a browser
 2.Log in to the account
 3.Click on the "Orders" tab
+
 Expected Result: 
 The order history page should display all the orders placed by the user.
