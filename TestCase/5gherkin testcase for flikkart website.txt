@@ -1,0 +1,35 @@
+Feature: Search for a product on Flipkart
+
+Scenario: Search for a product
+  Given I am on the Flipkart website
+  When I enter "laptop" in the search bar
+  And I click on the search button
+  Then I should see a list of products related to "laptop"
+  
+Scenario: Filter search results by brand
+  Given I am on the Flipkart website
+  When I enter "mobile phone" in the search bar
+  And I click on the search button
+  And I select "Samsung" from the brand filter
+  Then I should see a list of Samsung mobile phones
+  
+Scenario: Add a product to the cart
+  Given I am on the Flipkart website
+  When I search for "t-shirt"
+  And I click on a t-shirt product
+  And I select a size and color
+  And I click on the "Add to cart" button
+  Then the t-shirt should be added to my cart
+  
+Scenario: Checkout with a product in the cart
+  Given I have a product in my Flipkart cart
+  When I click on the cart icon
+  And I click on the "Checkout" button
+  And I enter my address and payment information
+  And I click on the "Place Order" button
+  Then I should see a confirmation message that my order has been placed
+  
+Scenario: View order history
+  Given I am logged in to my Flipkart account
+  When I click on the "My Orders" tab
+  Then I should see a list of my previous orders
