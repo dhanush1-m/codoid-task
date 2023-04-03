@@ -11,14 +11,10 @@ public class Handlemultiple {
         // Create a new Chrome driver instance
         System.setProperty("webdriver.chrome.driver", "./chromedriver.exe");
         WebDriver driver = new ChromeDriver();
-
-        // Navigate to the first window
         driver.get("https://www.google.com");
-
         // Click a link that opens a new window
         WebElement link = driver.findElement(By.linkText("Gmail"));
         link.click();
-
         // Wait for the new window to appear
         Thread.sleep(2000);
 
@@ -31,25 +27,18 @@ public class Handlemultiple {
             }
         }
         driver.switchTo().window(secondWindowHandle);
-
         // Navigate to a page in the new window
         driver.get("https://mail.google.com");
-
         // Switch back to the first window
         driver.switchTo().window(driver.getWindowHandles().iterator().next());
-
         // Close the first window
         driver.close();
-
         // Switch back to the second window
         driver.switchTo().window(secondWindowHandle);
-
         // Do some stuff in the second window
         driver.findElement(By.id("identifierId")).sendKeys("danush@gmail.com");
-
         // Close the second window
         driver.close();
-
         // Quit the driver
         driver.quit();
     }
