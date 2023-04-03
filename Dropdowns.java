@@ -28,7 +28,7 @@ public class Dropdowns {
         // Select multiple options from the dropdown by index, value, or visible text
         select.selectByIndex(0);
         select.selectByVisibleText("2 years");
-
+        select.selectByValue("chrnni"):
         // Deselect all options
         select.deselectAll();
 
