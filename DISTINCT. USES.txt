@@ -1,0 +1,28 @@
+How do we use the DISTINCT statement? What are its use?
+
+The DISTINCT statement is a clause that can be used in a SELECT statement to eliminate 
+duplicate rows from the result set. The DISTINCT keyword instructs
+the database to return only unique values for the specified column(s) or expression(s).
+
+EMPLOYEE:
+
+EMPNO	ENAME	MGR	HIREDATE	SAL      JOB
+1	SMITH	3	12/17/1980	800.00	BANKING
+2	ALLEN	4	2/20/1981	1600.00	INSURANCE
+3	WARD		2/22/1981	1250.00	BANKING
+4	JONES		4/2/1981	2975.00	INSURANCE
+5	MARTIN	4	9/28/1981	1250.00	INSURANCE
+6	BLAKE	7	5/1/1981	2850.00	SERVICES
+
+SELECT DISTINCT SAL
+FROM EMPLOTEE;
+ OUTPUT:
+ SAL:
+800.00
+1600.00
+1250.00
+2975.00
+2850.00
+
+
+

@@ -1,0 +1,36 @@
+
+Syntax to create a table :
+
+CREATE TABLE Table_Name
+(
+Column_Name1 datatype constraint_type ,
+Column_Name2 datatype constraint_type ,
+Column_Name3 datatype constraint_type ,
+.
+.
+Column_NameN datatype constraint_type
+);
+
+EXAMPLE:
+
+
+CREATE TABLE EMPLOYEE
+(
+EID Number(2) primary key ,
+ENAME Varchar(10) ,
+CNO Number(10) not null check( length( CNO ) = 10 ) ,
+ADDRESS Varchar(15)
+);
+
+
+EMPLOYEE
+EID          ENAME         ENO        ADDDRESS
+NUMBER(2)   VARCHAR(10)  NUMBER(10)  VARCHAR(20)
+
+INSERT INTO EMPLOYEE VALUES( 1 , 'DINGA' , 9876543210 ,'BANGALORE' ) ;
+
+EMPLOYEE
+
+EID          ENAME         ENO        ADDDRESS
+NUMBER(2)   VARCHAR(10)  NUMBER(10)  VARCHAR(20)
+1             DINGA      8975645545   BENGALORE
