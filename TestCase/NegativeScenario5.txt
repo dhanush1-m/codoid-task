@@ -1,9 +1,14 @@
-1.Negative Test Case for Login Functionality: Entering incorrect username and incorrect password should result in an error message stating that either the username or password is incorrect.
+1.Negative Test Case for Login Functionality: 
+     Entering incorrect username and incorrect password should result in an error message stating that either the username or password is incorrect.
 
-2.Negative Test Case for Search Functionality: Entering a keyword that does not exist in the database should result in an error message stating that no results were found.
+2.Negative Test Case for Search Functionality: 
+     Entering a keyword that does not exist in the database should result in an error message stating that no results were found.
 
-3.Negative Test Case for Registration Functionality: Entering an invalid email format (such as without @ symbol) should result in an error message stating that the email format is invalid.
+3.Negative Test Case for Registration Functionality: 
+     Entering an invalid email format (such as without @ symbol) should result in an error message stating that the email format is invalid.
 
-4.Negative Test Case for Payment Functionality: Entering a negative or zero value as the payment amount should result in an error message stating that the payment amount is invalid.
+4.Negative Test Case for Payment Functionality: 
+     Entering a negative or zero value as the payment amount should result in an error message stating that the payment amount is invalid.
 
-5.Negative Test Case for File Upload Functionality: Uploading a file with an unsupported format should result in an error message stating that the file format is not supported.
+5.Negative Test Case for File Upload Functionality:
+     Uploading a file with an unsupported format should result in an error message stating that the file format is not supported.
