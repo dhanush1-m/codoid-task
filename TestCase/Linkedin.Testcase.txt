@@ -1,0 +1,40 @@
+
+      LINKEDIN TESTCASE:
+
+1.Navigation Test Case: 
+      1.Verify that users can navigate the LinkedIn website with ease, 
+      and that links to different pages and sections are working correctly.
+2.Home Page Test Case: 
+
+      1.Verify that the LinkedIn home page displays the correct information, such as updates from connections, 
+     suggested content, and job opportunities.
+3.Profile Page Test Case:
+
+      1.Verify that the LinkedIn profile page displays the correct information about the user, 
+      such as work experience, education, and skills.
+4.Job Search Test Case:
+
+      1.Verify that the LinkedIn job search page displays relevant job opportunities 
+      based on the user's location, experience, and skills.
+5.Messaging Test Case:
+
+      1.Verify that users can send and receive messages from their LinkedIn connections, 
+      and that the messaging features (e.g. attachments, emojis) work correctly.
+6.Groups Test Case:
+ 
+      1.Verify that users can join and participate in LinkedIn groups, 
+      and that the group features (e.g. discussions, notifications) work correctly.
+7.Notifications Test Case:
+ 
+      1.Verify that the LinkedIn notifications page displays all relevant notifications, 
+      such as connection requests, messages, and updates.
+8.Search Test Case:
+
+      1.Verify that the LinkedIn search page displays accurate and relevant results based on the user's search query.
+9.Mobile Test Case: 
+
+      1.Verify that LinkedIn website view works correctly on different mobile devices (e.g. Android, iOS) and operating systems.
+10.Security Test Case: 
+
+      1.Verify that LinkedIn website view provides robust security features (e.g. two-factor authentication, privacy settings)
+     to protect users' accounts and prevent unauthorized access.
