@@ -1,38 +1,40 @@
-Title: Incorrect Calculation of Shipping Charges on E-commerce Website.
+  Title: Incorrect Calculation of Shipping Charges on E-commerce Website.
 
-1).Defect ID:autumaticaly
-2).Project name:xxx
-3).Releasename:yyy
-4).Build id:xxx
-5).Priority:p1
-6).Reported by:
-7).Severity: High
-8).Assignto:
-9).Defectsummary:Incorrect Calculation of Shipping Charges on E-commerce Website
+1)Defect ID         :autumaticaly
+2)Project name      :e-commerce
+3)Releasename       :ho1
+4)Build id          :po1
+5)Priority          :p1
+6)Reported by       :dhnaush
+7)Severity          :High
+8)Assign to         :csk
+9)Defectsummary     :Incorrect Calculation of Shipping Charges on E-commerce Website
+10)Testcasename/id   :ko2
+11)Test url          :xxxx
+12)status           :new/open
+13)Environment platform:
+          1.os name:
+          2.os version:
+          3.browser version:
+          4.browser name:
 
-10)Environment platform:
-   1.os name:
-   2.os version:
-   3.browser version:
-   4.broswer name:
+14)Steps to Reproduce:
 
-11)Steps to Reproduce:
+         1.Visit the e-commerce website.
+         2.Add a product to the cart.
+         3.Proceed to checkout and enter the shipping address.
+         4.Observe the displayed shipping charges.
 
-  1.Visit the e-commerce website.
-  2.Add a product to the cart.
-  3.Proceed to checkout and enter the shipping address.
-  4.Observe the displayed shipping charges.
+15)Expected Result: The displayed shipping charges should be accurate and calculated based on the shipping address and the weight of the product.
 
-12)Expected Result: The displayed shipping charges should be accurate and calculated based on the shipping address and the weight of the product.
+16)Actual Result: The displayed shipping charges are incorrect and higher than the expected amount.
 
-13)Actual Result: The displayed shipping charges are incorrect and higher than the expected amount.
-
-14)Additional Information:
+17)Additional Information:
 
   1.This issue is reproducible on different browsers and devices.
   2.The issue is not specific to a particular product or category.
   3.The issue occurs consistently for all shipping addresses. 
   4.The issue is not related to any coupon codes or discounts applied.
 
-15)Screenshot: Attached
+18)Screenshot: Attached
 
