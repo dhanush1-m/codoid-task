@@ -1,10 +1,19 @@
 1.Verify that the user is able to successfully log in to their account with valid credentials.
+
 2.Verify that the user is unable to log in with invalid credentials and receives an appropriate error message.
+
 3.Verify that the user is able to search for trains by entering the correct source and destination station names and date of travel.
+
 4.Verify that the user is unable to search for trains without providing the required information such as source, destination, and date of travel.
+
 5.Verify that the user is able to book a train ticket successfully by selecting the train and providing the required information such as passenger details, seat preference, and payment information.
+
 6.Verify that the user is unable to book a ticket without providing all the required information and receives an appropriate error message.
+
 7.Verify that the user is able to view their booked ticket details including PNR number, train number, seat number, and other relevant information.
+
 8.Verify that the user is able to cancel a booked ticket successfully and receives a refund as per the cancellation policy.
+
 9.Verify that the user is unable to cancel a ticket that is not eligible for cancellation and receives an appropriate error message.
+
 10.Verify that the website is responsive and functional on different browsers, devices, and screen sizes.
