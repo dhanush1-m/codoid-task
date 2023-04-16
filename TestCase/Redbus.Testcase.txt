@@ -1,71 +1,67 @@
 1.)Test Case Name: Successful Ticket Booking
 Test Steps:
-
 Open Redbus website.
-1.Enter the required details such as source, destination, date of travel, and the number of passengers.
-2.Click on the Search button.
-3.Verify that the list of available buses is displayed.
-4.Select a bus that meets the criteria and click on the "Select Seats" button.
-5.Select the desired seats and click on the "Continue Booking" button.
-6.Enter the passenger details and click on the "Proceed to Pay" button.
-7.Verify that the payment page is displayed.
-8.Enter the payment details and click on the "Pay Now" button.
-9.verify that the booking confirmation page is displayed.
+   1.Enter the required details such as source, destination, date of travel, and the number of passengers.
+   2.Click on the Search button.
+   3.Verify that the list of available buses is displayed.
+   4.Select a bus that meets the criteria and click on the "Select Seats" button.
+   5.Select the desired seats and click on the "Continue Booking" button.
+   6.Enter the passenger details and click on the "Proceed to Pay" button.
+   7.Verify that the payment page is displayed.
+   8.Enter the payment details and click on the "Pay Now" button.
+   9.verify that the booking confirmation page is displayed.
 
-Expected Result: The ticket should be booked successfully, 
-and the user should receive a confirmation message with the booking details.
+     Expected Result: The ticket should be booked successfully, 
+                       and the user should receive a confirmation message with the booking details.
 
 2).Test Case Name: Invalid Date Selection
 Test Steps:
-
 Open Redbus website.
-*Enter the required details such as source, destination, and an invalid date (e.g., a past date).
-*Click on the Search button.
-*Verify that an error message is displayed, indicating that the date is invalid.
+   1.Enter the required details such as source, destination, and an invalid date (e.g., a past date).
+   2.Click on the Search button.
+   3.Verify that an error message is displayed, indicating that the date is invalid.
 
 Expected Result: The user should not be able to search for buses for an invalid date, 
 and an appropriate error message should be displayed.
 
 3)Test Case Name: Empty Passenger Details
 Test Steps:
-
 Open Redbus website.
-*Enter the required details such as source, destination, and the date of travel.
-*Click on the Search button.
-*Select a bus and click on the "Select Seats" button.
-*Select the desired seats and click on the "Continue Booking" button.
-*Leave the passenger details empty and click on the "Proceed to Pay" button.
-*Verify that an error message is displayed, indicating that the passenger details are mandatory.
+     1.Enter the required details such as source, destination, and the date of travel.
+     2.Click on the Search button.
+     3.Select a bus and click on the "Select Seats" button.
+     4.Select the desired seats and click on the "Continue Booking" button.
+     5.Leave the passenger details empty and click on the "Proceed to Pay" button.
+     6.Verify that an error message is displayed, indicating that the passenger details are mandatory.
 
 Expected Result: The user should not be able to proceed with the booking without entering the mandatory passenger details,
  and an appropriate error message should be displayed.
 
 4).Test Case Name: Payment Failure
 Test Steps:
-
 Open Redbus website.
-*Enter the required details such as source, destination, date of travel, and the number of passengers.
-*Click on the Search button.
-*Select a bus that meets the criteria and click on the "Select Seats" button.
-*Select the desired seats and click on the "Continue Booking" button.
-*Enter the passenger details and click on the "Proceed to Pay" button.
-*Enter the payment details and intentionally enter an incorrect card number or expiration date.
-*Click on the "Pay Now" button.
-*Verify that a payment failure message is displayed.
+    1.Enter the required details such as source, destination, date of travel, and the number of passengers.
+    2.Click on the Search button.
+    3.Select a bus that meets the criteria and click on the "Select Seats" button.
+    4.Select the desired seats and click on the "Continue Booking" button.
+    5.Enter the passenger details and click on the "Proceed to Pay" button.
+    6.Enter the payment details and intentionally enter an incorrect card number or expiration date.
+    7.Click on the "Pay Now" button.
+    8.Verify that a payment failure message is displayed.
 
 Expected Result: 
 The user should not be able to make the payment with incorrect payment details, 
 and an appropriate error message should be displayed.
 
 5).Test Case Name: Ticket Cancellation
-Test Steps:
 
+Test Steps:
 Open Redbus website.
-*Click on the "My Bookings" tab.
-*Select the ticket that the user wants to cancel.
-*Click on the "Cancel Ticket" button.
-*Enter the reason for cancellation and click on the "Confirm Cancellation" button.
-*Verify that a confirmation message is displayed, indicating that the ticket has been canceled successfully.
+    1.Click on the "My Bookings" tab.
+    2.Select the ticket that the user wants to cancel.
+    3.Click on the "Cancel Ticket" button.
+    4.Enter the reason for cancellation and click on the "Confirm Cancellation" button.
+    5.Verify that a confirmation message is displayed, indicating that the ticket has been canceled successfully.
 
 Expected Result: The user should be able to cancel the ticket successfully, 
 and an appropriate confirmation message should be displayed.
