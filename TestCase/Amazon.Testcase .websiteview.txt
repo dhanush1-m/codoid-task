@@ -2,11 +2,10 @@
 
 Description: Verify that the Amazon homepage is displayed correctly.
 Steps:
-
-  1.Navigate to the Amazon website.
-  2.Verify that the Amazon logo and search bar are visible.
-  3.Verify that the top navigation bar with categories is visible.
-  4.Verify that the footer with links is visible.
+     1.Navigate to the Amazon website.
+     2.Verify that the Amazon logo and search bar are visible.
+     3.Verify that the top navigation bar with categories is visible.
+     4.Verify that the footer with links is visible.
 
   Expected result: 
   The homepage should display correctly with all the necessary elements visible.
@@ -14,10 +13,9 @@ Steps:
 2).Test case name: Search results page view
     Description: Verify that the search results page is displayed correctly.
   Steps:
-
-  1.Navigate to the Amazon website.
-  2.Enter a search query in the search bar and click on the search button.
-  3.Verify that the search results page is displayed with the appropriate search results and filters.
+     1.Navigate to the Amazon website.
+     2.Enter a search query in the search bar and click on the search button.
+     3.Verify that the search results page is displayed with the appropriate search results and filters.
   
   Expected result:
   The search results page should display correctly with the appropriate search results and filters visible.
@@ -27,9 +25,10 @@ Steps:
 Description: Verify that the product page is displayed correctly.
   Steps:
 
-  1.Navigate to the Amazon website.
-  2.Search for a product and click on the product image or title to view the product page.
-  3.Verify that the product page displays the product details, images, price, and reviews.
+     1.Navigate to the Amazon website.
+     2.Search for a product and click on the product image or title to view the product page.
+     3.Verify that the product page displays the product details, images, price, and reviews.
+  
   Expected result: 
   The product page should display correctly with all the necessary elements visible.
 
@@ -37,10 +36,10 @@ Description: Verify that the product page is displayed correctly.
 Description: Verify that the cart page is displayed correctly.
 Steps:
 
-  1.Navigate to the Amazon website.
-  2.Add a product to the cart.
-  3.Click on the cart icon to view the cart page.
-  4.Verify that the cart page displays the added product, quantity, price, and checkout options.
+     1.Navigate to the Amazon website.
+     2.Add a product to the cart.
+     3.Click on the cart icon to view the cart page.
+     4.Verify that the cart page displays the added product, quantity, price, and checkout options.
   
   Expected result: 
   The cart page should display correctly with all the necessary elements visible.
@@ -49,9 +48,9 @@ Steps:
 Description: Verify that the sign-in page is displayed correctly.
 Steps:
 
-Navigate to the Amazon website.
-  1.Click on the sign-in button.
-  2.Verify that the sign-in page is displayed with the email and password fields, and sign-in options.
+     1.Navigate to the Amazon website.
+     2.Click on the sign-in button.
+     3.Verify that the sign-in page is displayed with the email and password fields, and sign-in options.
   
   Expected result: 
   the sign-in page should display correctly with all the necessary elements visible.
@@ -60,9 +59,9 @@ Navigate to the Amazon website.
   Description: Verify that the sign-up page is displayed correctly.
   Steps:
 
-   1.Navigate to the Amazon website.
-   2.Click on the "Hello, Sign in" button and select "Start here" to create a new account.
-   3.Verify that the sign-up page is displayed with the appropriate fields and sign-up options.
+      1.Navigate to the Amazon website.
+      2.Click on the "Hello, Sign in" button and select "Start here" to create a new account.
+      3.Verify that the sign-up page is displayed with the appropriate fields and sign-up options.
    
    Expected result: 
    The sign-up page should display correctly with all the necessary elements visible.
@@ -71,10 +70,10 @@ Navigate to the Amazon website.
 Description: Verify that the account page is displayed correctly.
 Steps:
 
-1.Navigate to the Amazon website.
-2.Sign in to the account.
-3.Click on the "Account & Lists" button.
-4.Verify that the account page is displayed with the appropriate options such as orders, payments, addresses, etc.
+     1.Navigate to the Amazon website.
+     2.Sign in to the account.
+     3.Click on the "Account & Lists" button.
+     4.Verify that the account page is displayed with the appropriate options such as orders, payments, addresses, etc.
 
 Expected result: 
 The account page should display correctly with all the necessary elements visible.
@@ -82,9 +81,9 @@ The account page should display correctly with all the necessary elements visibl
 8)Test Case Name: View Order History
 Objective: To verify that the order history can be viewed.
 Steps:
-1.Open Amazon website in a browser
-2.Log in to the account
-3.Click on the "Orders" tab
+      1.Open Amazon website in a browser
+      2.Log in to the account
+      3.Click on the "Orders" tab
 
 Expected Result: 
 The order history page should display all the orders placed by the user.
